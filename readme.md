@@ -82,7 +82,7 @@ When you require RWT, you should pass extra parameters to the function :
 ## RWT Custom Parameters Options
 
 | Parameter          | Type    | Details                                                             |
-|--------------------|:-------:|--------------------------------------------------------------------:|
+|--------------------|:--------|:--------------------------------------------------------------------|
 | expire             | Number  | Set the token TTL in seconds                                        |
 | verifyExtendsToken | Boolean | Extend automatically the token life each time we check its validity |
 
@@ -129,6 +129,6 @@ To avoid process to stay alive before closing node instance. If you use disconne
 
 ### connect
 
-If you want to handle when you want to connect to redis server. 
+If you want to handle when you want to connect to redis server.
 
 **No parameter**
