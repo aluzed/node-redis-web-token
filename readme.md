@@ -90,6 +90,7 @@ When you require RWT, you should pass extra parameters to the function :
 
 ## Methods
 
+
 ### sign
 
 Generate the redis token.
@@ -101,6 +102,7 @@ Generate the redis token.
 * {Object} expire key : Custom expire date (be careful with this value, if you use revive, your global expire configuration will overwrite this value each time we'll call verify method).
 * {Function} Callback (err, token)
 
+
 ### verify
 
 Check if hour token is alive an return the User object values we set at connection, if you edit user values during the session, those data may be outdated. You must call the sign method each time you update your user's values.
@@ -110,6 +112,7 @@ Check if hour token is alive an return the User object values we set at connecti
 * {String} Token
 * {String} Secret
 * {Function} Callback (err, user)
+
 
 ### extend
 
@@ -121,11 +124,13 @@ Reset the TTL of our token with default expire value in our configuration.
 * {String} Secret
 * {Function} Callback (err)
 
+
 ### disconnect
 
 To avoid process to stay alive before closing node instance. If you use disconnect method, any call to *sign*, *verify* or *extend* method will reconnect automatically.
 
 **No parameter**
+
 
 ### connect
 
