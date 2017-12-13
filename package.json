@@ -1,0 +1,26 @@
+{
+  "name": "redis-web-token",
+  "version": "1.0.0",
+  "description": "Redis Web Token",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/_mocha ./tests/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aluzed/node-redis-web-token.git"
+  },
+  "author": "Alexandre PENOMBRE <aluzed@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aluzed/node-redis-web-token/issues"
+  },
+  "homepage": "https://github.com/aluzed/node-redis-web-token#readme",
+  "dependencies": {
+    "redis": "^2.8.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  }
+}
