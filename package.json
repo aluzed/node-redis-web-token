@@ -10,6 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/aluzed/node-redis-web-token.git"
   },
+  "keywords": ["redis web token", "token", "redis token"],
   "author": "Alexandre PENOMBRE <aluzed@gmail.com>",
   "license": "MIT",
   "bugs": {

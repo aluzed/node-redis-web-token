@@ -20,6 +20,12 @@ By using third part component (redis), we'll be able to check token in each micr
 
 ```
 
+## Installation
+
+```
+npm i -S redis-web-token
+```
+
 ## Usage
 
 ```javascript
@@ -137,3 +143,11 @@ To avoid process to stay alive before closing node instance. If you use disconne
 If you want to handle when you want to connect to redis server.
 
 **No parameter**
+
+---
+
+## Example
+
+### Node.js
+
+See sample at : [https://github.com/aluzed/node-redis-web-token-sample](https://github.com/aluzed/node-redis-web-token-sample)

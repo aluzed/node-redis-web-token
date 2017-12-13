@@ -1,3 +1,9 @@
+/**
+* redis-web-token test unit
+*
+* Author: Alexandre PENOMBRE <aluzed@gmail.com>
+* Copyright 2017
+*/
 const assert = require('assert');
 const redis  = require('redis');
 const config = require('./redisConfiguration');
