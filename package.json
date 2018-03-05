@@ -1,6 +1,6 @@
 {
   "name": "redis-web-token",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Redis Web Token",
   "main": "index.js",
   "scripts": {
