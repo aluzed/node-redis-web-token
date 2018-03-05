@@ -18,7 +18,7 @@ describe('Redis Web Token Tests', () => {
         const rwt = require('../')({
           redis: config,
           custom: {
-            expire: 'test'
+            expire: 'test' // error because expire must be a number
           }
         });
       }).to.throw(Error);

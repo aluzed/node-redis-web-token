@@ -49,22 +49,14 @@ module.exports = (config) => {
       throw new Error('Error, parameter must be type of object');
 
     const arr = [];
-    for(let key in obj) {
-      let tmpVal = null;
-      arr.push(key);
 
-      // Sanitize our value
-      if(typeof obj[key] === 'undefined') {
-        tmpVal = null;
+    for(let key in obj) {
+      if(!!obj[key]) {
+        arr.push(key);
+        arr.push(obj[key].toString() || "");
       }
-      else {
-        tmpVal = obj[key];
-        if(typeof tmpVal !== 'string') {
-          tmpVal = tmpVal.toString();
-        }
-      }
-      arr.push(tmpVal);
     }
+
     return arr;
   }
 
