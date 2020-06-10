@@ -10,7 +10,11 @@
     "type": "git",
     "url": "git+https://github.com/aluzed/node-redis-web-token.git"
   },
-  "keywords": ["redis web token", "token", "redis token"],
+  "keywords": [
+    "redis web token",
+    "token",
+    "redis token"
+  ],
   "author": "Alexandre PENOMBRE <aluzed@gmail.com>",
   "license": "MIT",
   "bugs": {
@@ -21,7 +25,7 @@
     "redis": "^2.8.0"
   },
   "devDependencies": {
-    "chai": "^4.1.2",
-    "mocha": "^4.0.1"
+    "chai": "^4.2.0",
+    "mocha": "^7.2.0"
   }
 }
