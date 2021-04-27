@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/aluzed/node-redis-web-token#readme",
   "dependencies": {
-    "redis": "^2.8.0"
+    "redis": "^3.1.1"
   },
   "devDependencies": {
     "chai": "^4.2.0",
